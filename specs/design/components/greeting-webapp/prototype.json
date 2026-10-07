@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 3,
+  "name": "Greeting Board",
+  "entryScreen": "screen.greeting",
+  "roles": [{ "id": "visitor", "name": "Visitor" }],
+  "states": [
+    { "id": "state.default", "name": "Default" },
+    { "id": "state.empty", "name": "No name entered" }
+  ],
+  "screens": [
+    { "id": "screen.greeting", "name": "Greeting", "roleIds": ["visitor"] }
+  ],
+  "flows": [
+    {
+      "id": "flow.greet",
+      "name": "Say hello",
+      "roleId": "visitor",
+      "screenIds": ["screen.greeting"]
+    }
+  ]
+}
