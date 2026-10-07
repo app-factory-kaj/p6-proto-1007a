@@ -1,0 +1,4 @@
+apiVersion = "agentic-engineer/v1"
+name = "p6-proto-1007a"
+createdAt = "2026-10-07T16:52:06Z"
+idea = "A tiny React web app called greeting-board: one page with a name field and a Greet button that shows a friendly greeting. Single screen, no backend, no login."
