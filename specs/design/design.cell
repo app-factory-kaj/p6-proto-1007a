@@ -1,0 +1,5 @@
+title Greeting Board
+
+component greeting-webapp as "Greeting Board" web-application
+
+north -> greeting-webapp
